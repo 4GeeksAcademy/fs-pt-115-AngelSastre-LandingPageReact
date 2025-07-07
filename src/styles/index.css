@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ body {
+    background-image: url(../img/ShenronBG2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,9 +1,9 @@
 export const Jumbotron = () => {
     return (
         <section
-            className="d-flex align-items-start justify-content-center flex-column text-light mt-2"
+            className="col-12 d-flex align-items-start justify-content-center flex-column text-light mt-2"
             style={{
-                backgroundImage: 'url(src/img/AlcidesJumbo2.png)',
+                backgroundImage: 'url(src/img/Jumbotron.png)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -21,10 +21,12 @@ export const Jumbotron = () => {
             ></div>
 
             <hgroup className="position-relative p-3" style={{ zIndex: 2 }}>
-                <h1 className="display-4 fw-bold mb-3">Alcides SSJ4</h1>
-                <p className="lead mb-4">Dragon Ball Z is a Japanese anime series that follows the story of Goku, a powerful Saiyan warrior, as he defends Earth against increasingly formidable enemies. The series explores themes of friendship, perseverance, and self-improvement, featuring epic battles, transformations like Super Saiyan, and the quest to gather the mystical Dragon Balls to grant any wish. It’s an action-packed adventure that has inspired generations of fans around the world.</p>
+                <h1 className="display-4 fw-bold mb-3">¡Alciku vs Angellin!</h1>
+                <p className="lead mb-4">En el corazón del Torneo Mundial de las Artes Marciales, la historia se escribe con cada golpe. Alciku, el guerrero saiyajin impulsado por su furia indomable, se enfrenta a Angellin, el maestro terrenal de técnica perfecta y voluntad inquebrantable. El destino del combate no está escrito... solo uno saldrá en pie.
+
+</p>
             </hgroup>
-            <button className="ms-3 btn btn-outline-light btn-lg" style={{ zIndex: 2 }}>Kamehameha Alcides!</button>
+            <button className="ms-3 btn btn-outline-light btn-lg" style={{ zIndex: 2 }}>Torneo de poder</button>
 
 
         </section>

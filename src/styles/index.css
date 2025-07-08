@@ -10,9 +10,18 @@
 
 */
  body {
-    background-image: url(../img/ShenronBG2.png);
+    background-image: url(src/img/Fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.card-img {
+    height: 18rem;
+}
+
+.card-container {
+    background: none;
+    
 }
